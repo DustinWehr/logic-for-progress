@@ -317,7 +317,7 @@ Though Logic for Progress is already several years in the making, development of
 <p>If you’re skilled in <b>writing</b>, we want your help, and you can have a huge influence on the direction of LFP. You will have full permissions to modify this website and our FDD examples. We will always have a backlog of prose from examples that needs to be made easier to understand and more eloquent. You don’t need a background in math to do this. There is also a lot to do in improving the quality of educational material on logic and the FDD process, and in outreach. </p>
 
 <p>
-If you're a <b>programmer</b> or <b>designer</b>, you can help build <a href="http://www.structuretogether.com/">Structure Together</a>, the most advanced realtime collaborative structure editor, which serves as the user interface for Formal Deductive Deliberation.
+If you're a <b>programmer</b> or <b>designer</b>, you can help build <a href="http://www.structuretogether.com/">Structure Together</a>, soon to be the most advanced realtime collaborative structure editor, which serves as the user interface for Formal Deductive Deliberation.
 </p>
 
 	
@@ -361,55 +361,6 @@ It's great for gaining a better understanding and appreciation of your opponents
 And it can also be used to demonstrate, in the most humble and scrutinizable way possible, that something very unreasonable in going on. -->
 
 	</section>
-
-
-<section class="wip">
-	<h2>WIP and removed blurbs</h2>
-
-	(an early Interpreted Formal Proof, produced for academics and very far from the readability we aspire to, can be found <a href="http://www.cs.toronto.edu/~wehr/st/out/acc-nogoog/index.html?demo=lh">here</a>).
-	<br/>
-
-	<h3>blurbs</h3>
-	 <p>Logic for Progress conducts case studies using the methodology of Formal Deductive Deliberation (FDD), with the aim to influence real decision making. We also develop a tool to ease the burden of FDD; humans are not hard-wired to think in a primarily deductive manner, and certainly not to use formal logic, so there are serious barriers to overcome. There is a lot of work to be done before FDD is accessible enough to be used in a public institution.
-	 </p>
-
-	<br/>
-
-	<b class="wip">Some stuff from https://docs.google.com/document/d/1oGi31Yda8EH1xrPl5zaDp2nNzu7913cvgWOg0w7GcNk/edit has not been merged into here.</b>
-
-	<br/><br/>
-
-	<h3>Mr Big</h3>
-		We care a lot about miscarriages of justice at LFP, and they make for good case studies (more on why later), so we'll use a possible wrongful conviction as an example:
-
-		<div id='position'>
-		Position: "There is a significant chance that Atif Rafay and Sebastian Burns falsely confessed to murdering Rafay's family in 1995(?)."
-		</div>
-		<br/>
-
-		These two Canadian men were extradited by Canada after a Mr. Big sting tricked them into confessing to murdering Burns's family. A Mr. Big Sting is an elaborate, expensive, months-long undercover operation that involves fooling a murder suspect into thinking they are being brought into a crime syndicate, all for the purposes of eventually eliciting a confession to the murder. I'll let the CBC's Fifth Estate explain more fully:
-
-		<blockquote>
-			Mr Big as it’s carried out today was invented primarily by the BC RCMP in the early 1990s. The operation involves undercover cops forming a phony criminal gang to solve murders (usually cold cases). After months of studying a suspect's daily activities, an undercover officer posing as a gang member “accidentally” befriends the suspect. Next, the suspect is offered easy odd jobs with the criminal such as driving a car from one city to another, or making bank deposits. The suspect is paid up to thousands of dollars for these tasks. Eventually, once the suspect trusts the gang, they are introduced to the crime gang’s boss - Mr. Big. Mr Big tells the suspect that in order to stay on good terms with the gang (and the easy money that comes along with it) they must confess to a past crime. Mr. Big offers to help make any incriminating evidence linking the suspect to that crime disappear, but only if the suspect is straight with him and confesses in full detail. The RCMP always videotapes this meeting using a hidden camera. Once the suspect confesses, they are arrested and charged a few days later. The RCMP says Mr. Big operations have resulted in 350-400 arrests. Critics say the operation is little more than entrapment. The sting is illegal in many other countries, including the United States.
-		</blockquote>
-
-		We're going to give an extremely simple (and thus easy to attack) argument for the <a target='_self' href='#position'>Position</a>. Only for the sake of keeping this short, we'll be ignoring all the evidence involved in the Burns/Rafay case except for the confession to Mr. Big. Doing -- this is actually unfavourable for the two men, because the rest of the evidence, taken together, points toward their innocence (but don't take my word for it; <a href=''>click here</a> to be notified when we've completed a more-comprehensive Interpreted Formal Proof for this case).
-
-		<!-- <p>
-		QA machine. Takes a Thing as input, and outputs "Good", "Bad", or "Inconclusive". 
-		</p> -->
-		<p>
-		There are a lot of questions about the crime and the Mr. Big sting that we'll never know the answers to for sure. <!--Some of these things, though they would be helpful, don't necessarily need to be taken into account to make an argument that the defendent is probably guilty or not. -->
-		For example, we don't know <i>for sure</i> that Officer X is not a sadist intent on seeing innocent men convicted. But there are some convincing (though falsifiable) reasons to believe he's not, for example that nobody is claiming he is. And, when we consider how complicated analyzing this case would be if we had to doubt the basic virtue of the officers (see OJ Simpson case), we come to the conclusion that we're all ok just assuming Officer X is not a sadist. This is one trick we use to reason when we don't have all the relevant knowledge: both sides (prosecution and defence) agree to take as true something that neither knows <i>for sure</i> is true. It's called a "simplifying assumption" in engineering and science. 
-		<p/>
-		<p>
-		Simplifying assumptions for answering unknown questions should be used whenever possible, but often they cannot, because the proponent of the argument and the critic of the argument will have different guesses about the answer, and the {Position} strongly depends on the answer. In those cases, each side must formulate its own assumptions that imply an answer to the question. In the simplest case the assumption is their desired answer itself, and the whole argument becomes conditional on that guess being correct. But that makes the argument very weak. For example, we could assume that if the two men are innocent, they would definitely have falsely confessed. We could then conclude that the Mr Big evidence is as worthless to the prosecution as the men's claims of innocence are to the defense. That is a much stronger conclusion that we need to get a judge to reject the evidence, and it came at the cost of making an assumption that is too hard to justify. What we can do instead is make both the assumption and conclusion weaker. Moreover, if the language we use to state our assumption can also be used to state an assumption that the prosecution would accept, then we will be in a good position to argue with the prosecution. One way of doing this is to partially quantify our uncertainty about the question by introducing a probability parameter with the following property:
-		<ul>
-		<li>There is at least one parameter setting that constitutes an answer to the contentious question that satisfies us, the proponent.</li>
-		<li>For each critic in the {intended audience}, there is at least one parameter setting that constitutes an answer to the contentious question satisfies the critic.</li>
-		</ul>
-		This allows us to say things like "(I believe) there's at least a 20% chance that the defendent's alibi witness is honest." The intended meaning of the "20% chance" in that sentence is underspecified, and can be sharpened in various natural ways. Philosophers love to argue about which way is "the best", and they've been doing it for decades, with the different ways broudly grouped into "frequentist" and "Bayesian". Luckily for the philosophers, there is no "the best" way, and so their arguments will never come to an end, supporting careers in philosophy for decades to come. 
-</section>
 
 
 
