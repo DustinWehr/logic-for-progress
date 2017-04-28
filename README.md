@@ -1,5 +1,5 @@
-# [LogicForProgress](https://www.logicforprogress.org)
-[Logic for Progress](https://www.logicforprogress.org) is a project devoted to improving the quality of deliberation on contentious issues. Our unique approach involves *interpreted formal proof dialogues*, which are an enhanced form of a kind of dialogue that we are all familiar with:
+# [LogicForProgress](http://www.logicforprogress.org)
+[Logic for Progress](http://www.logicforprogress.org) is a project devoted to improving the quality of deliberation on contentious issues. Our unique approach involves *interpreted formal proof dialogues*, which are an enhanced form of a kind of dialogue that we are all familiar with:
 
 - A first person or group, the proponent, puts forward an initial argument.
 - Other people or groups, the critics, respond with criticisms of the argument.
